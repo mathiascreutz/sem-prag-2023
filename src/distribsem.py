@@ -29,7 +29,7 @@ def show_kwic(text, word, window, dimensionality, show_n):
                 break
             
 
-def create_vectors(dimensionality, window_size, text, freq_thresh=5):
+def create_vectors(dimensionality, window_size, text, freq_thresh=15):
 
     text = [w.lower() for w in text]
     
